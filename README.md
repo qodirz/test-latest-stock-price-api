@@ -31,19 +31,19 @@ The Postman collection includes:
    - Ensure your Rails server is running locally or on a specific host.
    - Click `Send` to execute the request and view the response.
 
-  2. **To test sign in `GET api/v1/price_all` endpoint:**
+  2. **To test Get Price ALL `GET api/v1/price_all` endpoint:**
    - Select the `PRICE ALL` request in the Postman collection.
    - Ensure your Rails server is running locally or on a specific host.
    - Ensure send your Token from Header
    - Click `Send` to execute the request and view the response.
 
-  3. **To test sign in `GET /api/v1/price?symbol=BAJFINANCE` endpoint:**
+  3. **To test Get Price `GET /api/v1/price?symbol=BAJFINANCE` endpoint:**
    - Select the `PRICE` request in the Postman collection.
    - Ensure your Rails server is running locally or on a specific host.
    - Ensure send your Token from Header
    - Click `Send` to execute the request and view the response.
 
-  4. **To test sign in `GET /api/v1/prices?symbol=BAJFINANCE,HDFCBANK` endpoint:**
+  4. **To test Get Prices `GET /api/v1/prices?symbol=BAJFINANCE,HDFCBANK` endpoint:**
    - Select the `PRICES` request in the Postman collection.
    - Ensure your Rails server is running locally or on a specific host.
    - Ensure send your Token from Header
