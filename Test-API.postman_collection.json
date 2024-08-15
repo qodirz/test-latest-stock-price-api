@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:3000/api/v1/login?email=user@example.com&password=password",
+			"name": "SIGN IN",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -39,7 +39,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/price_all",
+			"name": "PRICE ALL",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -65,7 +65,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/price",
+			"name": "PRICE",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -103,7 +103,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:3000/api/v1/prices?symbol=BAJFINANCE, M%26M",
+			"name": "PRICES",
 			"request": {
 				"method": "GET",
 				"header": [
