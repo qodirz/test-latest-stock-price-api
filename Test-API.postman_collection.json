@@ -76,7 +76,7 @@
 					}
 				],
 				"url": {
-					"raw": "localhost:3000/api/v1/price_all",
+					"raw": "localhost:3000/api/v1/price?symbol=BAJFINANCE",
 					"host": [
 						"localhost"
 					],
@@ -88,14 +88,8 @@
 					],
 					"query": [
 						{
-							"key": "token",
-							"value": null,
-							"disabled": true
-						},
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
+							"key": "symbol",
+							"value": "BAJFINANCE"
 						}
 					]
 				}
@@ -128,11 +122,6 @@
 						{
 							"key": "symbol",
 							"value": "BAJFINANCE,HDFCBANK"
-						},
-						{
-							"key": "",
-							"value": null,
-							"disabled": true
 						}
 					]
 				}
